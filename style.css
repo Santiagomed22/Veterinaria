@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+body {
+  margin: 0 30px;
+  background-image: url(images/fondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+
+header {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background-color: brown;
+  height: 50px;
+}
+
+.row {
+  background-color: rgb(5, 87, 26);
+  display: flex;
+}
+
+.logo img {
+  width: 170px;
+  padding: 20px;
+}
+
+.izquierda {
+  background-color: rgb(68, 227, 87);
+  width: 40%;
+  height: auto;
+}
+
+.derecha {
+  background-color: rgb(8, 238, 39);
+  width: 60%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 50px;
+}
+.galeria {
+  gap: 10px;
+  display: flex;
+  background-color: rgba(167, 13, 13, 0.7);
+}
+
+.galeria img {
+  width: 200px;
+  width: 200px;
+  gap: 10px;
+  display: flex;
+}
+
+footer {
+  background-color: black;
+  color: bisque;
+  height: 200px;
+}
+
+.mitad:hover {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(4, 124, 52);
+}
